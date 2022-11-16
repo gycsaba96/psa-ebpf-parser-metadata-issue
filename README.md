@@ -30,7 +30,7 @@ out.c:341:20: error: use of undeclared identifier 'pipi_md'
                    ^
 ```
 
-For reproducibility purposes, I created a repository with a minimal example: . One can reproduce the issue with the following commands:
+For reproducibility purposes, I created this [repository with a minimal example](https://github.com/gycsaba96/psa-ebpf-parser-metadata-issue). One can reproduce the issue using the following commands:
 
 ```
 make p4c-docker-setup
