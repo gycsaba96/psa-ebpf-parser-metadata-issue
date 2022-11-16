@@ -1,0 +1,1 @@
+sudo docker build --no-cache --network=host -t mytoolset/p4c-ebpf:latest .
